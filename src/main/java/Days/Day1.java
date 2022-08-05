@@ -24,7 +24,7 @@ public class Day1 {
         System.out.println("D1/2 - Santa will go to the ground on the floor: " + resolution.get(BASEMENT_FIRST));
     }
 
-    public Map<Day1Enums, Integer> processInput(String relativePath) {
+    public static Map<Day1Enums, Integer> processInput(String relativePath) {
         int firstBase = 0;
         Map<Day1Enums, Integer> result = new HashMap<>();
         String fileContent = inputReader.fileReader(relativePath);

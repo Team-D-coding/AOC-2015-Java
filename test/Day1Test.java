@@ -18,7 +18,6 @@ class Day1Test {
     @BeforeEach
     void init() {
         inputReader = new InputReader();
-//        day1 = new Day1();
     }
 
     @ParameterizedTest

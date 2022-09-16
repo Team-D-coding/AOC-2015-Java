@@ -27,7 +27,7 @@ public class Day1 {
     public static Map<Day1Enums, Integer> processInput(String relativePath) {
         int firstBase = 0;
         Map<Day1Enums, Integer> result = new HashMap<>();
-        String fileContent = inputReader.fileReader(relativePath);
+        String fileContent = inputReader.fileReaderString(relativePath);
         int currentFloor = STARTING_FLOOR;
         boolean ifBasementReached = false;
         for (int i = 0; i < fileContent.length(); i++) {
